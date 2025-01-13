@@ -1,0 +1,16 @@
+# This file describes the docker image and rocker extensions to load
+# Rockerc configuration: https://github.com/blooop/rockerc
+#
+# Key components:
+# - image: Specifies the base image to pass to rocker
+# - args: Lists additional features or tools to be added to the docker image
+
+dockerfile: docker/23-01/Dockerfile
+args:
+  - nvidia
+  - x11 
+  - user 
+  - pull 
+  - deps
+  - git 
+  - cwd

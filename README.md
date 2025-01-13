@@ -75,6 +75,17 @@ NanoOWL runs real-time on Jetson Orin Nano.
 <a id="setup"></a>
 ## 🛠️ Setup
 
+
+If you have rockerc
+
+```
+rockerc
+
+./run_example.sh
+```
+
+otherwise:
+
 1. Install the dependencies
 
     1. Install PyTorch
